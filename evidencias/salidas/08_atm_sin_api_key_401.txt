@@ -1,0 +1,1 @@
+﻿Solicitud ATM con JWT pero sin X-ATM-KEY rechazada correctamente con HTTP 401.

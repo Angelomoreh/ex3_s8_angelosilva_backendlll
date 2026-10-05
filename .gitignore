@@ -1,0 +1,10 @@
+target/
+**/target/
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+.mvn/apache-maven-*/
+.mvn/*.zip
+.mvn/*.tar.gz

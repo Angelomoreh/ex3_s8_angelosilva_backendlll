@@ -1,0 +1,24 @@
+﻿{
+    "canal":  "WEB",
+    "cuenta":  {
+                   "id":  101,
+                   "nombre":  "Diana Prince",
+                   "saldo":  7500.00,
+                   "edad":  35,
+                   "tipo":  "AHORRO",
+                   "activa":  true,
+                   "moneda":  "CLP",
+                   "fechaActualizacion":  "2026-10-05T18:16:31.068634Z"
+               },
+    "resumen":  {
+                    "cuentaId":  101,
+                    "cantidadMovimientos":  0,
+                    "totalCreditos":  0,
+                    "totalDebitos":  0,
+                    "cantidadAnomalias":  0
+                },
+    "transacciones":  [
+
+                      ],
+    "generadoEn":  "2026-10-05T18:17:20.451371615Z"
+}

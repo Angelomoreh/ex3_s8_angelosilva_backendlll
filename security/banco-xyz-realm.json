@@ -1,0 +1,46 @@
+{
+  "realm": "banco-xyz",
+  "enabled": true,
+  "displayName": "Banco XYZ",
+  "registrationAllowed": false,
+  "loginWithEmailAllowed": true,
+  "roles": {
+    "realm": [
+      {
+        "name": "usuario",
+        "description": "Usuario autorizado para consultar los BFF del banco"
+      }
+    ]
+  },
+  "clients": [
+    {
+      "clientId": "banco-api",
+      "name": "Cliente de pruebas Banco XYZ",
+      "enabled": true,
+      "publicClient": true,
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "redirectUris": ["http://localhost:*/*"],
+      "webOrigins": ["*"]
+    }
+  ],
+  "users": [
+    {
+      "username": "angelo",
+      "firstName": "Angelo",
+      "lastName": "Silva",
+      "email": "angelomoore053@gmail.com",
+      "emailVerified": true,
+      "enabled": true,
+      "requiredActions": [],
+      "realmRoles": ["usuario"],
+      "credentials": [
+        {
+          "type": "password",
+          "value": "angelo123",
+          "temporary": false
+        }
+      ]
+    }
+  ]
+}

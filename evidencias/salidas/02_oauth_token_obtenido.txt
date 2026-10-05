@@ -1,0 +1,1 @@
+﻿OAuth2 entrego un access_token JWT funcional para el usuario angelo y el cliente banco-api.

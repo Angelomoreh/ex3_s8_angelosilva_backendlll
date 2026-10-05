@@ -1,0 +1,313 @@
+﻿{
+    "canal":  "WEB",
+    "cuenta":  {
+                   "id":  101,
+                   "nombre":  "Diana Prince",
+                   "saldo":  8000.00,
+                   "edad":  35,
+                   "tipo":  "AHORRO",
+                   "activa":  true,
+                   "moneda":  "CLP",
+                   "fechaActualizacion":  "2026-10-05T16:55:31.543067Z"
+               },
+    "resumen":  {
+                    "cuentaId":  101,
+                    "cantidadMovimientos":  29,
+                    "totalCreditos":  37000.00,
+                    "totalDebitos":  23000.00,
+                    "cantidadAnomalias":  0
+                },
+    "transacciones":  [
+                          {
+                              "id":  289,
+                              "cuentaId":  101,
+                              "fecha":  "2024-12-22",
+                              "tipo":  "CREDITO",
+                              "monto":  2500.00,
+                              "descripcion":  "Ingreso navideÃ±o",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  551,
+                              "cuentaId":  101,
+                              "fecha":  "2024-11-23",
+                              "tipo":  "DEBITO",
+                              "monto":  1500.00,
+                              "descripcion":  "Compra en tienda",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  296,
+                              "cuentaId":  101,
+                              "fecha":  "2024-11-22",
+                              "tipo":  "DEBITO",
+                              "monto":  1000.00,
+                              "descripcion":  "Movimiento migrado desde sistema legacy",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  467,
+                              "cuentaId":  101,
+                              "fecha":  "2024-11-11",
+                              "tipo":  "DEBITO",
+                              "monto":  1000.00,
+                              "descripcion":  "Ingreso navideÃ±o",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  276,
+                              "cuentaId":  101,
+                              "fecha":  "2024-10-06",
+                              "tipo":  "CREDITO",
+                              "monto":  1500.00,
+                              "descripcion":  "Ingreso mensual",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  214,
+                              "cuentaId":  101,
+                              "fecha":  "2024-09-25",
+                              "tipo":  "CREDITO",
+                              "monto":  2500.00,
+                              "descripcion":  "Ingreso mensual",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  451,
+                              "cuentaId":  101,
+                              "fecha":  "2024-09-05",
+                              "tipo":  "CREDITO",
+                              "monto":  2500.00,
+                              "descripcion":  "Ingreso extra",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  588,
+                              "cuentaId":  101,
+                              "fecha":  "2024-09-02",
+                              "tipo":  "CREDITO",
+                              "monto":  3000.00,
+                              "descripcion":  "Ingreso navideÃ±o",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  572,
+                              "cuentaId":  101,
+                              "fecha":  "2024-08-31",
+                              "tipo":  "CREDITO",
+                              "monto":  3000.00,
+                              "descripcion":  "Movimiento migrado desde sistema legacy",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  521,
+                              "cuentaId":  101,
+                              "fecha":  "2024-08-04",
+                              "tipo":  "DEBITO",
+                              "monto":  2000.00,
+                              "descripcion":  "Compra en tienda",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  402,
+                              "cuentaId":  101,
+                              "fecha":  "2024-08-01",
+                              "tipo":  "DEBITO",
+                              "monto":  2000.00,
+                              "descripcion":  "Ingreso extra",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  545,
+                              "cuentaId":  101,
+                              "fecha":  "2024-07-20",
+                              "tipo":  "DEBITO",
+                              "monto":  2000.00,
+                              "descripcion":  "Compra en tienda",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  90,
+                              "cuentaId":  101,
+                              "fecha":  "2024-07-16",
+                              "tipo":  "DEBITO",
+                              "monto":  2500.00,
+                              "descripcion":  "Ingreso navideÃ±o",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  436,
+                              "cuentaId":  101,
+                              "fecha":  "2024-06-30",
+                              "tipo":  "CREDITO",
+                              "monto":  1500.00,
+                              "descripcion":  "Ingreso extra",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  554,
+                              "cuentaId":  101,
+                              "fecha":  "2024-06-28",
+                              "tipo":  "CREDITO",
+                              "monto":  1500.00,
+                              "descripcion":  "Ingreso extra",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  294,
+                              "cuentaId":  101,
+                              "fecha":  "2024-06-12",
+                              "tipo":  "CREDITO",
+                              "monto":  2000.00,
+                              "descripcion":  "Ingreso extra",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  211,
+                              "cuentaId":  101,
+                              "fecha":  "2024-06-03",
+                              "tipo":  "CREDITO",
+                              "monto":  2000.00,
+                              "descripcion":  "Compra en tienda",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  456,
+                              "cuentaId":  101,
+                              "fecha":  "2024-04-29",
+                              "tipo":  "CREDITO",
+                              "monto":  3000.00,
+                              "descripcion":  "Ingreso extra",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  292,
+                              "cuentaId":  101,
+                              "fecha":  "2024-04-26",
+                              "tipo":  "DEBITO",
+                              "monto":  1500.00,
+                              "descripcion":  "Ingreso extra",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  617,
+                              "cuentaId":  101,
+                              "fecha":  "2024-04-22",
+                              "tipo":  "DEBITO",
+                              "monto":  2500.00,
+                              "descripcion":  "Ingreso mensual",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  568,
+                              "cuentaId":  101,
+                              "fecha":  "2024-04-03",
+                              "tipo":  "DEBITO",
+                              "monto":  1500.00,
+                              "descripcion":  "Retiro parcial",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  197,
+                              "cuentaId":  101,
+                              "fecha":  "2024-03-22",
+                              "tipo":  "DEBITO",
+                              "monto":  2000.00,
+                              "descripcion":  "Retiro parcial",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  386,
+                              "cuentaId":  101,
+                              "fecha":  "2024-03-07",
+                              "tipo":  "CREDITO",
+                              "monto":  3000.00,
+                              "descripcion":  "Movimiento migrado desde sistema legacy",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  66,
+                              "cuentaId":  101,
+                              "fecha":  "2024-02-19",
+                              "tipo":  "DEBITO",
+                              "monto":  2000.00,
+                              "descripcion":  "Retiro parcial",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  223,
+                              "cuentaId":  101,
+                              "fecha":  "2024-02-04",
+                              "tipo":  "CREDITO",
+                              "monto":  2500.00,
+                              "descripcion":  "Compra en tienda",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  491,
+                              "cuentaId":  101,
+                              "fecha":  "2024-01-30",
+                              "tipo":  "CREDITO",
+                              "monto":  3000.00,
+                              "descripcion":  "Compra en tienda",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  646,
+                              "cuentaId":  101,
+                              "fecha":  "2024-01-25",
+                              "tipo":  "CREDITO",
+                              "monto":  1000.00,
+                              "descripcion":  "Ingreso extra",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  536,
+                              "cuentaId":  101,
+                              "fecha":  "2024-01-09",
+                              "tipo":  "DEBITO",
+                              "monto":  1500.00,
+                              "descripcion":  "Movimiento migrado desde sistema legacy",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          },
+                          {
+                              "id":  78,
+                              "cuentaId":  101,
+                              "fecha":  "2024-01-07",
+                              "tipo":  "CREDITO",
+                              "monto":  2500.00,
+                              "descripcion":  "Retiro parcial",
+                              "canal":  "LEGACY",
+                              "anomalia":  false
+                          }
+                      ],
+    "generadoEn":  "2026-10-05T18:16:28.29866912Z"
+}

@@ -1,0 +1,81 @@
+﻿	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-10-05T17:51:53.549Z  INFO 1 --- [transacciones-service] [           main] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-10-05T17:51:53.690Z  INFO 1 --- [transacciones-service] [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.9.1
+2026-10-05T17:51:53.690Z  INFO 1 --- [transacciones-service] [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: f745dfdcee2b9851
+2026-10-05T17:51:53.690Z  INFO 1 --- [transacciones-service] [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1791222713688
+2026-10-05T17:51:53.709Z  INFO 1 --- [transacciones-service] [           main] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Subscribed to topic(s): banco.retiros
+2026-10-05T17:51:53.741Z  INFO 1 --- [transacciones-service] [           main] c.d.t.TransaccionesServiceApplication    : Started TransaccionesServiceApplication in 8.104 seconds (process running for 8.842)
+2026-10-05T17:51:54.155Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-10-05T17:51:54.157Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Discovered group coordinator kafka:9092 (id: 2147483646 rack: null)
+2026-10-05T17:51:54.159Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] (Re-)joining group
+2026-10-05T17:51:54.178Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Request joining group due to: need to re-join with the given member-id: consumer-transacciones-service-1-e384af3a-d207-41be-81fe-ac56b7093af4
+2026-10-05T17:51:54.179Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] (Re-)joining group
+2026-10-05T17:51:54.189Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Successfully joined group with generation Generation{generationId=1, memberId='consumer-transacciones-service-1-e384af3a-d207-41be-81fe-ac56b7093af4', protocol='range'}
+2026-10-05T17:51:54.195Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Finished assignment for group at generation 1: {consumer-transacciones-service-1-e384af3a-d207-41be-81fe-ac56b7093af4=Assignment(partitions=[banco.retiros-0])}
+2026-10-05T17:51:54.208Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Successfully synced group in generation Generation{generationId=1, memberId='consumer-transacciones-service-1-e384af3a-d207-41be-81fe-ac56b7093af4', protocol='range'}
+2026-10-05T17:51:54.209Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Notifying assignor about the new Assignment(partitions=[banco.retiros-0])
+2026-10-05T17:51:54.211Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Adding newly assigned partitions: banco.retiros-0
+2026-10-05T17:51:54.223Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Found no committed offset for partition banco.retiros-0
+2026-10-05T17:51:54.242Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-transacciones-service-1, groupId=transacciones-service] Resetting offset for partition banco.retiros-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[kafka:9092 (id: 1 rack: null)], epoch=0}}.
+2026-10-05T17:51:54.243Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : transacciones-service: partitions assigned: [banco.retiros-0]
+2026-10-05T17:56:53.051Z  INFO 1 --- [transacciones-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-10-05T18:01:53.031Z  INFO 1 --- [transacciones-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-10-05T18:06:53.011Z  INFO 1 --- [transacciones-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-10-05T18:11:52.992Z  INFO 1 --- [transacciones-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-10-05T18:16:27.967Z  INFO 1 --- [transacciones-service] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-05T18:16:27.968Z  INFO 1 --- [transacciones-service] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-05T18:16:27.972Z  INFO 1 --- [transacciones-service] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-10-05T18:16:31.105Z  INFO 1 --- [transacciones-service] [ntainer#0-0-C-1] c.d.t.event.RetiroEventConsumer          : Evento Kafka procesado: eventoId=6fe96a12-851f-45de-bec3-373a2a99eb6d, cuentaId=101, monto=500
+

@@ -1,0 +1,36 @@
+﻿{
+    "canal":  "MOBILE",
+    "cuentaId":  101,
+    "nombre":  "Diana Prince",
+    "tipo":  "AHORRO",
+    "saldo":  8000.00,
+    "moneda":  "CLP",
+    "cantidadMovimientos":  29,
+    "ultimosMovimientos":  [
+                               {
+                                   "fecha":  "2024-12-22",
+                                   "tipo":  "CREDITO",
+                                   "monto":  2500.00
+                               },
+                               {
+                                   "fecha":  "2024-11-23",
+                                   "tipo":  "DEBITO",
+                                   "monto":  1500.00
+                               },
+                               {
+                                   "fecha":  "2024-11-22",
+                                   "tipo":  "DEBITO",
+                                   "monto":  1000.00
+                               },
+                               {
+                                   "fecha":  "2024-11-11",
+                                   "tipo":  "DEBITO",
+                                   "monto":  1000.00
+                               },
+                               {
+                                   "fecha":  "2024-10-06",
+                                   "tipo":  "CREDITO",
+                                   "monto":  1500.00
+                               }
+                           ]
+}

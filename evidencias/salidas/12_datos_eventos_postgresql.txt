@@ -1,0 +1,13 @@
+﻿              evento_id               |   tipo_evento    |         procesado_en          
+--------------------------------------+------------------+-------------------------------
+ 6fe96a12-851f-45de-bec3-373a2a99eb6d | RETIRO_REALIZADO | 2026-10-05 18:16:31.096162+00
+(1 row)
+
+ id  | cuenta_id |  tipo   |  monto  | canal  
+-----+-----------+---------+---------+--------
+ 687 |       101 | DEBITO  |  500.00 | CAJERO
+ 646 |       101 | CREDITO | 1000.00 | LEGACY
+ 617 |       101 | DEBITO  | 2500.00 | LEGACY
+(3 rows)
+
+

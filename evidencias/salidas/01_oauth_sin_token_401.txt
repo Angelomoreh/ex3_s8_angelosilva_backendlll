@@ -1,0 +1,1 @@
+﻿Solicitud sin token OAuth2 rechazada correctamente con HTTP 401 Unauthorized.

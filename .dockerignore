@@ -1,0 +1,9 @@
+.git
+.idea
+.vscode
+**/target
+evidencias
+*.zip
+.mvn/apache-maven-*
+.mvn/*.zip
+.mvn/*.tar.gz

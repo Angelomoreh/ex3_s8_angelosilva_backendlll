@@ -1,0 +1,26 @@
+﻿{
+    "name":  "bff-web",
+    "profiles":  [
+                     "default"
+                 ],
+    "label":  null,
+    "version":  null,
+    "state":  null,
+    "propertySources":  [
+                            {
+                                "name":  "file:/config-repo/bff-web.properties",
+                                "source":  {
+                                               "banco.configuracion.servicio":  "Configuracion remota para bff-web",
+                                               "resilience4j.circuitbreaker.instances.transacciones.wait-duration-in-open-state":  "10s"
+                                           }
+                            },
+                            {
+                                "name":  "file:/config-repo/application.properties",
+                                "source":  {
+                                               "banco.configuracion.origen":  "Config Server centralizado del Banco XYZ",
+                                               "management.endpoint.health.show-details":  "always",
+                                               "eureka.client.service-url.defaultZone":  "${EUREKA_URL:http://localhost:8761/eureka/}"
+                                           }
+                            }
+                        ]
+}

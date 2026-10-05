@@ -1,0 +1,284 @@
+﻿{
+    "applications":  {
+                         "versions__delta":  "1",
+                         "apps__hashcode":  "UP_6_",
+                         "application":  [
+                                             {
+                                                 "name":  "BFF-MOBILE",
+                                                 "instance":  [
+                                                                  {
+                                                                      "instanceId":  "20de6671837c:bff-mobile:8092",
+                                                                      "hostName":  "172.21.0.8",
+                                                                      "app":  "BFF-MOBILE",
+                                                                      "ipAddr":  "172.21.0.8",
+                                                                      "status":  "UP",
+                                                                      "overriddenStatus":  "UNKNOWN",
+                                                                      "port":  {
+                                                                                   "$":  8092,
+                                                                                   "@enabled":  "true"
+                                                                               },
+                                                                      "securePort":  {
+                                                                                         "$":  443,
+                                                                                         "@enabled":  "false"
+                                                                                     },
+                                                                      "countryId":  1,
+                                                                      "dataCenterInfo":  {
+                                                                                             "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                             "name":  "MyOwn"
+                                                                                         },
+                                                                      "leaseInfo":  {
+                                                                                        "renewalIntervalInSecs":  30,
+                                                                                        "durationInSecs":  90,
+                                                                                        "registrationTimestamp":  1791221713712,
+                                                                                        "lastRenewalTimestamp":  1791224233980,
+                                                                                        "evictionTimestamp":  0,
+                                                                                        "serviceUpTimestamp":  1791221713204
+                                                                                    },
+                                                                      "metadata":  {
+                                                                                       "management.port":  "8092"
+                                                                                   },
+                                                                      "homePageUrl":  "http://172.21.0.8:8092/",
+                                                                      "statusPageUrl":  "http://172.21.0.8:8092/actuator/info",
+                                                                      "healthCheckUrl":  "http://172.21.0.8:8092/actuator/health",
+                                                                      "vipAddress":  "bff-mobile",
+                                                                      "secureVipAddress":  "bff-mobile",
+                                                                      "isCoordinatingDiscoveryServer":  "false",
+                                                                      "lastUpdatedTimestamp":  "1791221713712",
+                                                                      "lastDirtyTimestamp":  "1791221713130",
+                                                                      "actionType":  "ADDED"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "name":  "BFF-ATM",
+                                                 "instance":  [
+                                                                  {
+                                                                      "instanceId":  "62023c78e22f:bff-atm:8093",
+                                                                      "hostName":  "172.21.0.10",
+                                                                      "app":  "BFF-ATM",
+                                                                      "ipAddr":  "172.21.0.10",
+                                                                      "status":  "UP",
+                                                                      "overriddenStatus":  "UNKNOWN",
+                                                                      "port":  {
+                                                                                   "$":  8093,
+                                                                                   "@enabled":  "true"
+                                                                               },
+                                                                      "securePort":  {
+                                                                                         "$":  443,
+                                                                                         "@enabled":  "false"
+                                                                                     },
+                                                                      "countryId":  1,
+                                                                      "dataCenterInfo":  {
+                                                                                             "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                             "name":  "MyOwn"
+                                                                                         },
+                                                                      "leaseInfo":  {
+                                                                                        "renewalIntervalInSecs":  30,
+                                                                                        "durationInSecs":  90,
+                                                                                        "registrationTimestamp":  1791221713713,
+                                                                                        "lastRenewalTimestamp":  1791224233981,
+                                                                                        "evictionTimestamp":  0,
+                                                                                        "serviceUpTimestamp":  1791221713383
+                                                                                    },
+                                                                      "metadata":  {
+                                                                                       "management.port":  "8093"
+                                                                                   },
+                                                                      "homePageUrl":  "http://172.21.0.10:8093/",
+                                                                      "statusPageUrl":  "http://172.21.0.10:8093/actuator/info",
+                                                                      "healthCheckUrl":  "http://172.21.0.10:8093/actuator/health",
+                                                                      "vipAddress":  "bff-atm",
+                                                                      "secureVipAddress":  "bff-atm",
+                                                                      "isCoordinatingDiscoveryServer":  "false",
+                                                                      "lastUpdatedTimestamp":  "1791221713713",
+                                                                      "lastDirtyTimestamp":  "1791221713303",
+                                                                      "actionType":  "ADDED"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "name":  "API-GATEWAY",
+                                                 "instance":  [
+                                                                  {
+                                                                      "instanceId":  "85cd0dad1040:api-gateway:8080",
+                                                                      "hostName":  "172.21.0.9",
+                                                                      "app":  "API-GATEWAY",
+                                                                      "ipAddr":  "172.21.0.9",
+                                                                      "status":  "UP",
+                                                                      "overriddenStatus":  "UNKNOWN",
+                                                                      "port":  {
+                                                                                   "$":  8080,
+                                                                                   "@enabled":  "true"
+                                                                               },
+                                                                      "securePort":  {
+                                                                                         "$":  443,
+                                                                                         "@enabled":  "false"
+                                                                                     },
+                                                                      "countryId":  1,
+                                                                      "dataCenterInfo":  {
+                                                                                             "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                             "name":  "MyOwn"
+                                                                                         },
+                                                                      "leaseInfo":  {
+                                                                                        "renewalIntervalInSecs":  30,
+                                                                                        "durationInSecs":  90,
+                                                                                        "registrationTimestamp":  1791221711179,
+                                                                                        "lastRenewalTimestamp":  1791224230651,
+                                                                                        "evictionTimestamp":  0,
+                                                                                        "serviceUpTimestamp":  1791221710264
+                                                                                    },
+                                                                      "metadata":  {
+                                                                                       "management.port":  "8080"
+                                                                                   },
+                                                                      "homePageUrl":  "http://172.21.0.9:8080/",
+                                                                      "statusPageUrl":  "http://172.21.0.9:8080/actuator/info",
+                                                                      "healthCheckUrl":  "http://172.21.0.9:8080/actuator/health",
+                                                                      "vipAddress":  "api-gateway",
+                                                                      "secureVipAddress":  "api-gateway",
+                                                                      "isCoordinatingDiscoveryServer":  "false",
+                                                                      "lastUpdatedTimestamp":  "1791221711179",
+                                                                      "lastDirtyTimestamp":  "1791221709816",
+                                                                      "actionType":  "ADDED"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "name":  "CUENTAS-SERVICE",
+                                                 "instance":  [
+                                                                  {
+                                                                      "instanceId":  "926c07b0cf43:cuentas-service:8081",
+                                                                      "hostName":  "172.21.0.11",
+                                                                      "app":  "CUENTAS-SERVICE",
+                                                                      "ipAddr":  "172.21.0.11",
+                                                                      "status":  "UP",
+                                                                      "overriddenStatus":  "UNKNOWN",
+                                                                      "port":  {
+                                                                                   "$":  8081,
+                                                                                   "@enabled":  "true"
+                                                                               },
+                                                                      "securePort":  {
+                                                                                         "$":  443,
+                                                                                         "@enabled":  "false"
+                                                                                     },
+                                                                      "countryId":  1,
+                                                                      "dataCenterInfo":  {
+                                                                                             "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                             "name":  "MyOwn"
+                                                                                         },
+                                                                      "leaseInfo":  {
+                                                                                        "renewalIntervalInSecs":  30,
+                                                                                        "durationInSecs":  90,
+                                                                                        "registrationTimestamp":  1791222097570,
+                                                                                        "lastRenewalTimestamp":  1791224227777,
+                                                                                        "evictionTimestamp":  0,
+                                                                                        "serviceUpTimestamp":  1791222097058
+                                                                                    },
+                                                                      "metadata":  {
+                                                                                       "management.port":  "8081"
+                                                                                   },
+                                                                      "homePageUrl":  "http://172.21.0.11:8081/",
+                                                                      "statusPageUrl":  "http://172.21.0.11:8081/actuator/info",
+                                                                      "healthCheckUrl":  "http://172.21.0.11:8081/actuator/health",
+                                                                      "vipAddress":  "cuentas-service",
+                                                                      "secureVipAddress":  "cuentas-service",
+                                                                      "isCoordinatingDiscoveryServer":  "false",
+                                                                      "lastUpdatedTimestamp":  "1791222097570",
+                                                                      "lastDirtyTimestamp":  "1791222096993",
+                                                                      "actionType":  "ADDED"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "name":  "BFF-WEB",
+                                                 "instance":  [
+                                                                  {
+                                                                      "instanceId":  "dab6f1449f4f:bff-web:8091",
+                                                                      "hostName":  "172.21.0.7",
+                                                                      "app":  "BFF-WEB",
+                                                                      "ipAddr":  "172.21.0.7",
+                                                                      "status":  "UP",
+                                                                      "overriddenStatus":  "UNKNOWN",
+                                                                      "port":  {
+                                                                                   "$":  8091,
+                                                                                   "@enabled":  "true"
+                                                                               },
+                                                                      "securePort":  {
+                                                                                         "$":  443,
+                                                                                         "@enabled":  "false"
+                                                                                     },
+                                                                      "countryId":  1,
+                                                                      "dataCenterInfo":  {
+                                                                                             "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                             "name":  "MyOwn"
+                                                                                         },
+                                                                      "leaseInfo":  {
+                                                                                        "renewalIntervalInSecs":  30,
+                                                                                        "durationInSecs":  90,
+                                                                                        "registrationTimestamp":  1791221712278,
+                                                                                        "lastRenewalTimestamp":  1791224232392,
+                                                                                        "evictionTimestamp":  0,
+                                                                                        "serviceUpTimestamp":  1791221711764
+                                                                                    },
+                                                                      "metadata":  {
+                                                                                       "management.port":  "8091"
+                                                                                   },
+                                                                      "homePageUrl":  "http://172.21.0.7:8091/",
+                                                                      "statusPageUrl":  "http://172.21.0.7:8091/actuator/info",
+                                                                      "healthCheckUrl":  "http://172.21.0.7:8091/actuator/health",
+                                                                      "vipAddress":  "bff-web",
+                                                                      "secureVipAddress":  "bff-web",
+                                                                      "isCoordinatingDiscoveryServer":  "false",
+                                                                      "lastUpdatedTimestamp":  "1791221712278",
+                                                                      "lastDirtyTimestamp":  "1791221711572",
+                                                                      "actionType":  "ADDED"
+                                                                  }
+                                                              ]
+                                             },
+                                             {
+                                                 "name":  "TRANSACCIONES-SERVICE",
+                                                 "instance":  [
+                                                                  {
+                                                                      "instanceId":  "1673c7eb51ba:transacciones-service:8082",
+                                                                      "hostName":  "172.21.0.12",
+                                                                      "app":  "TRANSACCIONES-SERVICE",
+                                                                      "ipAddr":  "172.21.0.12",
+                                                                      "status":  "UP",
+                                                                      "overriddenStatus":  "UNKNOWN",
+                                                                      "port":  {
+                                                                                   "$":  8082,
+                                                                                   "@enabled":  "true"
+                                                                               },
+                                                                      "securePort":  {
+                                                                                         "$":  443,
+                                                                                         "@enabled":  "false"
+                                                                                     },
+                                                                      "countryId":  1,
+                                                                      "dataCenterInfo":  {
+                                                                                             "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                             "name":  "MyOwn"
+                                                                                         },
+                                                                      "leaseInfo":  {
+                                                                                        "renewalIntervalInSecs":  30,
+                                                                                        "durationInSecs":  90,
+                                                                                        "registrationTimestamp":  1791222713982,
+                                                                                        "lastRenewalTimestamp":  1791224244099,
+                                                                                        "evictionTimestamp":  0,
+                                                                                        "serviceUpTimestamp":  1791222713468
+                                                                                    },
+                                                                      "metadata":  {
+                                                                                       "management.port":  "8082"
+                                                                                   },
+                                                                      "homePageUrl":  "http://172.21.0.12:8082/",
+                                                                      "statusPageUrl":  "http://172.21.0.12:8082/actuator/info",
+                                                                      "healthCheckUrl":  "http://172.21.0.12:8082/actuator/health",
+                                                                      "vipAddress":  "transacciones-service",
+                                                                      "secureVipAddress":  "transacciones-service",
+                                                                      "isCoordinatingDiscoveryServer":  "false",
+                                                                      "lastUpdatedTimestamp":  "1791222713982",
+                                                                      "lastDirtyTimestamp":  "1791222713412",
+                                                                      "actionType":  "ADDED"
+                                                                  }
+                                                              ]
+                                             }
+                                         ]
+                     }
+}
